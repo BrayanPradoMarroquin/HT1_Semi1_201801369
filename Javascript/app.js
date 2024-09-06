@@ -9,7 +9,7 @@ app.get('/check', (req, res) => {
 // Endpoint 2: Obtener objeto JSON
 app.get('/', (req, res) => {
     const data = {
-        "Instancia": "Instancia #2 - API #2",
+        "Instancia": "Instancia #1 - API #1",
         "Curso": "Seminario de Sistemas 1",
         "Estudiante": "Brayan Hamllelo Estevem Prado Marroquín - 201801369"
     };
