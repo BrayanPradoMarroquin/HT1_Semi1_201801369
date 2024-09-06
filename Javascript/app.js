@@ -9,8 +9,9 @@ app.get('/check', (req, res) => {
 // Endpoint 2: Obtener objeto JSON
 app.get('/', (req, res) => {
     const data = {
-        message: "Hello from the JavaScript API!",
-        timestamp: new Date()
+        "Instancia": "Instancia #2 - API #2",
+        "Curso": "Seminario de Sistemas 1",
+        "Estudiante": "Brayan Hamllelo Estevem Prado Marroquín - 201801369"
     };
     res.json(data);
 });
