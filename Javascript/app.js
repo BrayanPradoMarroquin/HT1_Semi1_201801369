@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
     res.json(data);
 });
 
-const port = 3000;
+const port = 8000;
 app.listen(port, () => {
     console.log(`API running on http://localhost:${port}`);
 });
